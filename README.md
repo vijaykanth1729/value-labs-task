@@ -5,11 +5,13 @@ Setup with Docker
 Install Docker (https://docs.docker.com/install/)
 Clone this repository.
 >>> docker-compose up --build
+
 Setup without Docker
 Install Python (>3.4)
 Install postgres. By default the Django app will connect to the database named 'postgres'. See settings.DATABASES.
 Clone this repository.
 Install requirements.
+
 >>> pip install -r requirements.txt
 Run migrations.
 >>> python manage.py migrate
